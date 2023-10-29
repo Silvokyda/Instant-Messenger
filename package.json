@@ -4,11 +4,11 @@
   "description": "Real-time chat app with Node.js server and Next.js frontend for instant messaging. Secure, scalable, and user-friendly",
   "main": "index.js",
   "scripts": {
-    "start": "concurrently \"npm run backend\" \"npm run frontend\"",
+    "start": "concurrently \"npm run backend\" \"npm run dev\"",
     "backend": "node backend/server.js",
-    "frontend": "cd frontend && npm run dev",
+    "dev": "next dev",
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  },  
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Silvokyda/Instant-Messenger.git"
