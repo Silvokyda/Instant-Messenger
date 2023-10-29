@@ -12,12 +12,12 @@ Database integration for user profiles and chat history
 
 ## Tech Stack:
 
-Server: Node.js, Express.js
-Frontend: Next.js, React
-Database: Postgress
-Real-Time Communication: WebSocket
-Authentication: [Your chosen authentication method]
-Hosting:Vercel[https://instant-messenger-cc4mtrsyb-silvokyda.vercel.app/]
+1. Server: Node.js, Express.js
+2. Frontend: Next.js, React
+3. Database: Postgress
+4. Real-Time Communication: WebSocket
+5. Authentication: [Your chosen authentication method]
+6. Hosting:[Vercel](https://instant-messenger-cc4mtrsyb-silvokyda.vercel.app/)
 
 ## Getting Started:
 
