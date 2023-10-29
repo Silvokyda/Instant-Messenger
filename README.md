@@ -17,7 +17,7 @@ Database integration for user profiles and chat history
 3. Database: Postgress
 4. Real-Time Communication: WebSocket
 5. Authentication: [Your chosen authentication method]
-6. Hosting:[Vercel](https://instant-messenger-ten.vercel.app/)
+6. Hosting: [Vercel](https://instant-messenger-ten.vercel.app/)
 
 ## Getting Started:
 
