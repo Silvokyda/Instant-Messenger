@@ -17,7 +17,7 @@ Frontend: Next.js, React
 Database: Postgress
 Real-Time Communication: WebSocket
 Authentication: [Your chosen authentication method]
-Hosting:Vercel
+Hosting:Vercel[https://instant-messenger-cc4mtrsyb-silvokyda.vercel.app/]
 
 ## Getting Started:
 
