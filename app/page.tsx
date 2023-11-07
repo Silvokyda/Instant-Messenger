@@ -1,14 +1,10 @@
-// ./app/page.tsx
+// pages/index.js
+
 import React from 'react';
+import LoginPage from './pages/LoginPage';
 
-const Page = () => {
-  return (
-      <div>
-        <h1>
-          My Swift Messanger
-        </h1>
-      </div>
-  )
-}
+const Index = () => {
+  return <LoginPage />;
+};
 
-export default Page;
+export default Index;

@@ -1,12 +1,25 @@
 const express = require('express');
+const connectToDB = require('./db/db');
+const authRoutes = require('./routes/authRoutes');
+const messageRoutes = require('./routes/messageRoutes');
+
 const app = express();
-const port = 3001;
+const PORT = process.env.PORT || 5000;
 
-app.get('/', (req, res) => {
-  res.send('Hello from the server!');
-});
+app.use(express.json()); 
 
-app.listen(port, () => {
-  console.log(`Server is running on port ${port}`);
-});
+connectToDB()
+  .then(() => {
+    // Routes for user authentication (login, register)
+    app.use('/auth', authRoutes);
 
+    // Routes for handling messages
+    app.use('/chats', messageRoutes);
+
+    app.listen(PORT, () => {
+      console.log(`Server running on port ${PORT}`);
+    });
+  })
+  .catch((err) => {
+    console.error('Error connecting to the database:', err);
+  });
